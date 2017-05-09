@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="assets/puritym/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 
-
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 
 </head>
 <body>
@@ -295,6 +295,12 @@
                                 <input type="email" class="form-control" name="email" required="" placeholder="Saissir votre adresse mail..." data-form-field="Email">
                             </div>
                             <div class="mbr-form__right mbr-buttons mbr-buttons--no-offset mbr-buttons--right"><button type="submit" class="mbr-buttons__btn btn btn-lg btn-info">ENREGISTREMENT</button></div>
+                            <button
+                              class="g-recaptcha"
+                              data-sitekey="6LdgkyAUAAAAAKDfp92C-GxQVU_Ekp_8AxAxkwIk"
+                              data-callback="YourOnSubmitFn">
+                              Submit
+                              </button>
                         </form>
                     </div>
                 </div>
